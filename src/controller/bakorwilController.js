@@ -3,6 +3,10 @@ import path from "path";
 import fs from "fs";
 import { response } from "express";
 
+export const entry = async (req, res) => {
+  res.json("yo mAn!!!");
+};
+
 // CONTROLLER GET ALL BAKORWIL
 export const getBakorwil = async (req, res) => {
   try {
